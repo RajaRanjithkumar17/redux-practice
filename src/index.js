@@ -9,14 +9,12 @@ import Home from './home/Home';
 // import Tasks from './tasks/Tasks';
 // import { sslice } from './slice';
 import { initialState } from './context/reducer';
-
 import Iiii from './tasks/Iiii';
 import { stateContext } from './context/Contexts';
 import { stateReducer } from './context/reducer';
 import Result from './Result';
 import { store } from './store';
 import { Provider } from 'react-redux';
-
 // import { demo } from './context/reducer';
 
 

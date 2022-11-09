@@ -4,8 +4,8 @@ export const sslice = createSlice({
     name:"react",
     initialState:{
         age :22,
-        name:"ran",
-        task:[]
+        name:"ranjith",
+        
     },
     reducers:{
         imctage:(state,action)=>{
@@ -14,10 +14,10 @@ export const sslice = createSlice({
         
         },
 
-        fun:(state,action)=>{
-            state.task=action.payload
+        // fun:(state,action)=>{
+        //     state.task=action.payload
 
-        }
+        // }
     }
 })
 export const {imctage,fun}= sslice.actions

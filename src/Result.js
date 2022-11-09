@@ -20,9 +20,11 @@ const Iiii = () => {
 
   return (
     <div>
-        <h1>{state?.age}</h1>
       
-      <button onClick={()=>imcage()}>age add</button>
+        <h1>{state?.name}</h1>
+        <h1>{state?.age}</h1>
+        <button onClick={()=>imcage()}>age add</button>
+        
     </div>
   )
 }

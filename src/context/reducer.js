@@ -3,7 +3,7 @@ export const initialState=
 {
 
   age :22,
-  name:"ran"
+  name:"ranjith"
   // demo:["ranjth"]
 
  
